@@ -1,10 +1,3 @@
-//
-//  LinguistApp.swift
-//  Linguist
-//
-//  Created by Michael Chang on 11/10/25.
-//
-
 import SwiftUI
 
 @main

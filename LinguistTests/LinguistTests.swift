@@ -1,10 +1,3 @@
-//
-//  LinguistTests.swift
-//  LinguistTests
-//
-//  Created by Michael Chang on 11/10/25.
-//
-
 import Testing
 
 struct LinguistTests {

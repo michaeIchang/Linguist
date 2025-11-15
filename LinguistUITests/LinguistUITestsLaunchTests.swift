@@ -1,10 +1,3 @@
-//
-//  LinguistUITestsLaunchTests.swift
-//  LinguistUITests
-//
-//  Created by Michael Chang on 11/10/25.
-//
-
 import XCTest
 
 final class LinguistUITestsLaunchTests: XCTestCase {

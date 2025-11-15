@@ -1,22 +1,12 @@
-//
-//  ContentView.swift
-//  Linguist
-//
-//  Created by Michael Chang on 11/10/25.
-//
-
 import SwiftUI
+import FoundationModels
+import Playgrounds
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
+  @StateObject private var chatVM = ChatViewModel()
+  var body: some View {
+    ChatView(viewModel: chatVM)
+  }
 }
 
 #Preview {
